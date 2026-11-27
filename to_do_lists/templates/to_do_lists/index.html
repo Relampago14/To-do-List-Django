@@ -1,1 +1,14 @@
-teste
+{% extends "base.html" %}
+
+{% block title %}Minhas tarefas{% endblock %}
+
+{% block content %}
+    <h1 class="mb-3">Minhas tarefas</h1>
+
+    <div class="card">
+        <div class="card-body">
+            <p class="card-text">Aqui vai a lista de tarefas.</p>
+            <button class="btn btn-primary">Nova tarefa</button>
+        </div>
+    </div>
+{% endblock %}
